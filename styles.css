@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.links{
+    display: flex;
+    font-size: 18px;
+}
+
+li{
+    flex: 1;
+}
+
+.subheader{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.title-subheader{
+    font-size: 48px;
+}
+
+.cards{
+    display: flex;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.action{
+    background-color: #3882f6;
+}
