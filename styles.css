@@ -23,6 +23,7 @@ ul{
 .links{
     display: flex;
     font-size: 18px;
+    word-wrap: normal;
 }
 
 li{
@@ -32,26 +33,106 @@ li{
 .subheader{
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
 }
 
 .title-subheader{
     font-size: 48px;
+    margin: 0;
+}
+
+.img-subheader{
+    background-color: #666666;
+    padding: 80px;
+}
+
+.cards-title{
+    font-size: 36px;
+    text-align: center;
+    margin: 30px;
 }
 
 .cards{
     display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin: 20px;
+    margin-top: 0;
 }
 
 button{
     background-color: #3882f6;
     color: #f9faf8;
-    border: 0;
+    border: 2px;
+    border-color: #ff0606;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .quote{
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.quote-author{
+    padding-bottom: 80px;
+}
+
+.quote, .quote-author{
     background-color: #e5e7eb;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote-author{
+    text-align: right;
 }
 
 .action{
+    display: flex;
+    border-radius: 5px;
     background-color: #3882f6;
+    color: #f9faf8;
+    margin: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.action-btn{
+    background-color: #e5e7eb;
+    color: #3882f6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover{
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.card-img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.header, .subheader{
+    padding-left: 150px;
+    padding-right: 150px;
 }
